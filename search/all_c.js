@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['uart_5f0_5fisr_78',['UART_0_ISR',['../m4a-24g_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb',1,'UART_0_ISR():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb',1,'UART_0_ISR():&#160;periph_conf.h']]],
-  ['uart_5f1_5fisr_79',['UART_1_ISR',['../m4a-24g_2include_2periph__conf_8h.html#af9358264b5cbce69dddad098a8600aae',1,'UART_1_ISR():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#af9358264b5cbce69dddad098a8600aae',1,'UART_1_ISR():&#160;periph_conf.h']]],
-  ['uart_5f2_5fisr_80',['UART_2_ISR',['../m4a-mb_2include_2periph__conf_8h.html#afdfcd079b784102f3ceb94a04d9c9250',1,'periph_conf.h']]],
-  ['uart_5fconfig_81',['uart_config',['../m4a-24g_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5',1,'uart_config():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5',1,'uart_config():&#160;periph_conf.h']]],
-  ['uart_5fnumof_82',['UART_NUMOF',['../m4a-24g_2include_2periph__conf_8h.html#a850405f2aaa352ad264346531f0e6230',1,'UART_NUMOF():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a850405f2aaa352ad264346531f0e6230',1,'UART_NUMOF():&#160;periph_conf.h']]]
+  ['nvs_5fget_5fstring_146',['nvs_get_string',['../group__storage.html#gad9acfc7695a5d67f4b995f244c169c03',1,'storage.h']]],
+  ['nvs_5fget_5fuint32_147',['nvs_get_uint32',['../group__storage.html#ga450b450cae2b20e4c099164f4bb53464',1,'storage.h']]],
+  ['nvs_5fget_5fuint8_148',['nvs_get_uint8',['../group__storage.html#ga058d322184274aefd0dd9285e4516f76',1,'storage.h']]],
+  ['nvs_5finit_149',['nvs_init',['../group__storage.html#gab03b911dd4296933c03792401419e762',1,'storage.h']]],
+  ['nvs_5frst_150',['NVS_RST',['../at__client_8h.html#af14de5236b2168340b04ef3db3829217adbc26e84ff66a04b8a9e34295ec1793a',1,'at_client.h']]],
+  ['nvs_5fset_5fstring_151',['nvs_set_string',['../group__storage.html#gacc1e5ee27d1df131eb765a4b35f7d926',1,'storage.h']]],
+  ['nvs_5fset_5fuint32_152',['nvs_set_uint32',['../group__storage.html#ga89b77bc562e8639b91af8246c8f3748b',1,'storage.h']]],
+  ['nvs_5fset_5fuint8_153',['nvs_set_uint8',['../group__storage.html#gabe8255d291f1ac4a4ebb2c032e1c886c',1,'storage.h']]],
+  ['nvs_20routines_20for_20the_20wifi_20subsystem_154',['NVS routines for the WiFi subsystem',['../group__storage.html',1,'']]]
 ];

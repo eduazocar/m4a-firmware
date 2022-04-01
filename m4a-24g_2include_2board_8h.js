@@ -1,5 +1,37 @@
 var m4a_24g_2include_2board_8h =
 [
+    [ "Getting Started:", "group__ds18b20.html#autotoc_md31", null ],
+    [ "Build this example in your breadboard", "group__ds18b20.html#autotoc_md32", null ],
+    [ "Go to the example folder", "group__ds18b20.html#autotoc_md33", null ],
+    [ "Compile your code and flash it", "group__ds18b20.html#autotoc_md34", null ],
+    [ "First", "group__ds18b20.html#autotoc_md35", null ],
+    [ "Second", "group__ds18b20.html#autotoc_md36", null ],
+    [ "Last steps", "group__ds18b20.html#autotoc_md37", [
+      [ "Getting Started:", "group__ds18b20.html#autotoc_md31", null ],
+      [ "Build this example in your breadboard", "group__ds18b20.html#autotoc_md32", null ],
+      [ "Go to the example folder", "group__ds18b20.html#autotoc_md33", null ],
+      [ "Compile your code and flash it", "group__ds18b20.html#autotoc_md34", null ],
+      [ "First", "group__ds18b20.html#autotoc_md35", null ],
+      [ "Second", "group__ds18b20.html#autotoc_md36", null ],
+      [ "Last steps", "group__ds18b20.html#autotoc_md37", null ]
+    ] ],
+    [ "External led example", "group__external-led.html#autotoc_md38", null ],
+    [ "How to test it", "group__external-led.html#autotoc_md39", [
+      [ "External led example", "group__external-led.html#autotoc_md38", null ],
+      [ "How to test it", "group__external-led.html#autotoc_md39", null ]
+    ] ],
+    [ "Go to the example folder", "group__slipdev.html#autotoc_md27", null ],
+    [ "Compile your code and flash it", "group__slipdev.html#autotoc_md28", null ],
+    [ "First", "group__slipdev.html#autotoc_md29", null ],
+    [ "Second", "group__slipdev.html#autotoc_md30", [
+      [ "Go to the example folder", "group__slipdev.html#autotoc_md27", null ],
+      [ "Compile your code and flash it", "group__slipdev.html#autotoc_md28", null ],
+      [ "First", "group__slipdev.html#autotoc_md29", null ],
+      [ "Second", "group__slipdev.html#autotoc_md30", null ]
+    ] ],
+    [ "Uart example", "group__tmp__uart.html#autotoc_md40", [
+      [ "Uart example", "group__tmp__uart.html#autotoc_md40", null ]
+    ] ],
     [ "AT86RF2XX_PARAM_CS", "m4a-24g_2include_2board_8h.html#a555f5ce4ea27f15da0ed318fd79704ee", null ],
     [ "AT86RF2XX_PARAM_INT", "m4a-24g_2include_2board_8h.html#ab47f3ac0a872633fbef6ebe83d52883a", null ],
     [ "AT86RF2XX_PARAM_RESET", "m4a-24g_2include_2board_8h.html#ae1083f9546ac5eaf9cd81065ae0ac5c6", null ],
@@ -10,6 +42,7 @@ var m4a_24g_2include_2board_8h =
     [ "CONFIG_ZTIMER_USEC_DEV", "m4a-24g_2include_2board_8h.html#a2378d153069150591eb7fa2082f573d9", null ],
     [ "CONFIG_ZTIMER_USEC_MIN", "m4a-24g_2include_2board_8h.html#a0da89da11cd4268db8298bae9fbe1d85", null ],
     [ "CONFIG_ZTIMER_USEC_TYPE", "m4a-24g_2include_2board_8h.html#ae3245610b3181dbfab13ae3e5fae7e37", null ],
+    [ "CPUID", "m4a-24g_2include_2board_8h.html#a5cbb30009266fcb97959001bd91f9a8e", null ],
     [ "LED0_MASK", "m4a-24g_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead", null ],
     [ "LED0_OFF", "m4a-24g_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
     [ "LED0_ON", "m4a-24g_2include_2board_8h.html#a1e48dc02333bfc2e6ad3e5bd466eecd4", null ],

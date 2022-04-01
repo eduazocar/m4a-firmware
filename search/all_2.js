@@ -1,11 +1,14 @@
 var searchData=
 [
-  ['clock_5fcoreclock_20',['CLOCK_CORECLOCK',['../m4a-24g_2include_2periph__conf_8h.html#afc465f12242e68f6c3695caa3ba0a169',1,'CLOCK_CORECLOCK():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#afc465f12242e68f6c3695caa3ba0a169',1,'CLOCK_CORECLOCK():&#160;periph_conf.h']]],
-  ['clock_5fpll_5fdiv_21',['CLOCK_PLL_DIV',['../m4a-24g_2include_2periph__conf_8h.html#ad7c20feb5ba29cd3c6479fa74db3bbb0',1,'CLOCK_PLL_DIV():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#ad7c20feb5ba29cd3c6479fa74db3bbb0',1,'CLOCK_PLL_DIV():&#160;periph_conf.h']]],
-  ['clock_5fpll_5fmul_22',['CLOCK_PLL_MUL',['../m4a-24g_2include_2periph__conf_8h.html#a902a38d6dfe9bc80271132ace0d1ca69',1,'CLOCK_PLL_MUL():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a902a38d6dfe9bc80271132ace0d1ca69',1,'CLOCK_PLL_MUL():&#160;periph_conf.h']]],
-  ['clock_5fuse_5fpll_23',['CLOCK_USE_PLL',['../m4a-24g_2include_2periph__conf_8h.html#a8dc6f59497ff407016c464fb10f9ece8',1,'CLOCK_USE_PLL():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a8dc6f59497ff407016c464fb10f9ece8',1,'CLOCK_USE_PLL():&#160;periph_conf.h']]],
-  ['clock_5fuse_5fxosc32_5fdfll_24',['CLOCK_USE_XOSC32_DFLL',['../m4a-24g_2include_2periph__conf_8h.html#a4d657908106c0cfbfc9c140c6d605902',1,'CLOCK_USE_XOSC32_DFLL():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a4d657908106c0cfbfc9c140c6d605902',1,'CLOCK_USE_XOSC32_DFLL():&#160;periph_conf.h']]],
-  ['config_5fztimer_5fusec_5fdev_25',['CONFIG_ZTIMER_USEC_DEV',['../m4a-24g_2include_2board_8h.html#a2378d153069150591eb7fa2082f573d9',1,'board.h']]],
-  ['config_5fztimer_5fusec_5fmin_26',['CONFIG_ZTIMER_USEC_MIN',['../m4a-24g_2include_2board_8h.html#a0da89da11cd4268db8298bae9fbe1d85',1,'board.h']]],
-  ['config_5fztimer_5fusec_5ftype_27',['CONFIG_ZTIMER_USEC_TYPE',['../m4a-24g_2include_2board_8h.html#ae3245610b3181dbfab13ae3e5fae7e37',1,'board.h']]]
+  ['board_2eh_28',['board.h',['../m4a-24g_2include_2board_8h.html',1,'(Global Namespace)'],['../m4a-mb_2include_2board_8h.html',1,'(Global Namespace)'],['../m4a-wroom_2include_2board_8h.html',1,'(Global Namespace)'],['../m4a-wrover_2include_2board_8h.html',1,'(Global Namespace)']]],
+  ['board_5fantenna_5fconfig_29',['board_antenna_config',['../m4a-24g_2include_2board_8h.html#a6fa97fb22cd406ad1bcf804519ce3927',1,'board.h']]],
+  ['board_5finit_30',['board_init',['../m4a-24g_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc',1,'board_init(void):&#160;board.h'],['../m4a-mb_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc',1,'board_init(void):&#160;board.h'],['../m4a-wroom_2include_2board_8h.html#a41a81eeaf788e33d8bb29f939730ecec',1,'board_init(void):&#160;board.h'],['../m4a-wrover_2include_2board_8h.html#a41a81eeaf788e33d8bb29f939730ecec',1,'board_init(void):&#160;board.h']]],
+  ['boards_5fm4a_2dwroom_31',['Boards_m4a-wroom',['../group__boards__m4a-wroom.html',1,'']]],
+  ['boards_5fm4a_2dwrover_32',['Boards_m4a-wrover',['../group__boards__m4a-wrover.html',1,'']]],
+  ['btn0_5fint_5fflank_33',['BTN0_INT_FLANK',['../m4a-wroom_2include_2board_8h.html#af2a29f7e278ad28c7f67ab4f7696be3f',1,'board.h']]],
+  ['btn0_5fmode_34',['BTN0_MODE',['../m4a-24g_2include_2board_8h.html#a904884feea8e03c30c9a85ca6d7a8e5c',1,'BTN0_MODE():&#160;board.h'],['../m4a-mb_2include_2board_8h.html#a904884feea8e03c30c9a85ca6d7a8e5c',1,'BTN0_MODE():&#160;board.h'],['../m4a-wroom_2include_2board_8h.html#a904884feea8e03c30c9a85ca6d7a8e5c',1,'BTN0_MODE():&#160;board.h']]],
+  ['btn0_5fpin_35',['BTN0_PIN',['../m4a-24g_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270',1,'BTN0_PIN():&#160;board.h'],['../m4a-mb_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270',1,'BTN0_PIN():&#160;board.h'],['../m4a-wroom_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270',1,'BTN0_PIN():&#160;board.h']]],
+  ['btn0_5fport_36',['BTN0_PORT',['../m4a-24g_2include_2board_8h.html#a9a61388c9e491aec2e44cc03956bb299',1,'BTN0_PORT():&#160;board.h'],['../m4a-mb_2include_2board_8h.html#a9a61388c9e491aec2e44cc03956bb299',1,'BTN0_PORT():&#160;board.h']]],
+  ['buff_5fhandler_37',['buff_handler',['../at__client_8h.html#ad5ec277964aefa275f44eb043571860d',1,'at_client.h']]],
+  ['button0_5fpin_38',['BUTTON0_PIN',['../m4a-wroom_2include_2board_8h.html#ab828a29f5ffd34bb2aad742b836291cf',1,'board.h']]]
 ];

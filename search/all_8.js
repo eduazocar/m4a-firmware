@@ -1,11 +1,16 @@
 var searchData=
 [
-  ['periph_5fconf_2eh_54',['periph_conf.h',['../m4a-24g_2include_2periph__conf_8h.html',1,'(Global Namespace)'],['../m4a-mb_2include_2periph__conf_8h.html',1,'(Global Namespace)']]],
-  ['pwm_5f0_5fen_55',['PWM_0_EN',['../m4a-24g_2include_2periph__conf_8h.html#ac0ac477af727daf8ed4f4157f37b4395',1,'PWM_0_EN():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#ac0ac477af727daf8ed4f4157f37b4395',1,'PWM_0_EN():&#160;periph_conf.h']]],
-  ['pwm_5f1_5fen_56',['PWM_1_EN',['../m4a-24g_2include_2periph__conf_8h.html#ab720cc8e2711232b8886c44d58fcb416',1,'PWM_1_EN():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#ab720cc8e2711232b8886c44d58fcb416',1,'PWM_1_EN():&#160;periph_conf.h']]],
-  ['pwm_5f2_5fen_57',['PWM_2_EN',['../m4a-mb_2include_2periph__conf_8h.html#a8cbf32f51ddaf21fe06b4bbe964095d4',1,'periph_conf.h']]],
-  ['pwm_5fchan0_5fconfig_58',['pwm_chan0_config',['../m4a-24g_2include_2periph__conf_8h.html#ae505bf70258c000e0dd0f0ca6377db10',1,'pwm_chan0_config():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#ae505bf70258c000e0dd0f0ca6377db10',1,'pwm_chan0_config():&#160;periph_conf.h']]],
-  ['pwm_5fchan1_5fconfig_59',['pwm_chan1_config',['../m4a-24g_2include_2periph__conf_8h.html#a7ffca7e3ae7a2b23130a9398fa5b3a68',1,'periph_conf.h']]],
-  ['pwm_5fconfig_60',['pwm_config',['../m4a-24g_2include_2periph__conf_8h.html#a5177e7e865ac2ae63f7d56c8b3078707',1,'pwm_config():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a5177e7e865ac2ae63f7d56c8b3078707',1,'pwm_config():&#160;periph_conf.h']]],
-  ['pwm_5fnumof_61',['PWM_NUMOF',['../m4a-24g_2include_2periph__conf_8h.html#a44adbd579bb180f3cfe8ec78932eb7a1',1,'PWM_NUMOF():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#a44adbd579bb180f3cfe8ec78932eb7a1',1,'PWM_NUMOF():&#160;periph_conf.h']]]
+  ['i2c0_5fscl_90',['I2C0_SCL',['../m4a-wroom_2include_2periph__conf_8h.html#a69f255245dd74fb6785ca39656cf9983',1,'I2C0_SCL():&#160;periph_conf.h'],['../m4a-wrover_2include_2periph__conf_8h.html#a69f255245dd74fb6785ca39656cf9983',1,'I2C0_SCL():&#160;periph_conf.h']]],
+  ['i2c0_5fsda_91',['I2C0_SDA',['../m4a-wroom_2include_2periph__conf_8h.html#af530325ce28cf25ce89308fbd9ac8c16',1,'I2C0_SDA():&#160;periph_conf.h'],['../m4a-wrover_2include_2periph__conf_8h.html#af530325ce28cf25ce89308fbd9ac8c16',1,'I2C0_SDA():&#160;periph_conf.h']]],
+  ['i2c0_5fspeed_92',['I2C0_SPEED',['../m4a-wroom_2include_2periph__conf_8h.html#a0370de2a226ec75dd11d53d0915a7754',1,'I2C0_SPEED():&#160;periph_conf.h'],['../m4a-wrover_2include_2periph__conf_8h.html#a0370de2a226ec75dd11d53d0915a7754',1,'I2C0_SPEED():&#160;periph_conf.h']]],
+  ['i2c_5fconfig_93',['i2c_config',['../m4a-24g_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47',1,'i2c_config():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47',1,'i2c_config():&#160;periph_conf.h']]],
+  ['i2c_5fnumof_94',['I2C_NUMOF',['../m4a-24g_2include_2periph__conf_8h.html#abce62e16a6e3b3205801fed93c51692d',1,'I2C_NUMOF():&#160;periph_conf.h'],['../m4a-mb_2include_2periph__conf_8h.html#abce62e16a6e3b3205801fed93c51692d',1,'I2C_NUMOF():&#160;periph_conf.h']]],
+  ['identify_5fenabled_5finterface_95',['identify_enabled_interface',['../group__wifi-subsys__components.html#gae6668eba3f175628aac7bd5248bee4d1',1,'wifi.h']]],
+  ['init_5fap_96',['init_ap',['../group__wifi-subsys__components.html#ga9d1592020577990e6f348d027d0b5a71',1,'wifi.h']]],
+  ['init_5fmoisture_97',['init_moisture',['../moisture__sensor_8h.html#a5aecb8c061d0c67614d8a0805b627dca',1,'moisture_sensor.h']]],
+  ['init_5fsntp_98',['init_sntp',['../group__wifi-subsys__components.html#ga6d274b4f24915a4804e94fec6608f2c8',1,'protocol_sntp.h']]],
+  ['init_5fsta_99',['init_sta',['../group__wifi-subsys__components.html#ga91e3ae3af5d354b31d963366cdec8dae',1,'wifi.h']]],
+  ['init_5ftemperature_5fsensor_100',['init_temperature_sensor',['../ds18__sensor_8h.html#afd1968312478887124a3678bed0d1cab',1,'ds18_sensor.h']]],
+  ['is_5fap_101',['is_ap',['../group__wifi-subsys__components.html#ga8a891ceb4adebb3393f4cee34eda50da',1,'wifi.h']]],
+  ['is_5fsta_102',['is_sta',['../group__wifi-subsys__components.html#ga31d0fb01150610898c219b4830b5cf06',1,'wifi.h']]]
 ];

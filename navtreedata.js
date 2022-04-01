@@ -24,13 +24,25 @@ var NAVTREE =
 [
   [ "Mesh4all", "index.html", [
     [ "m4a reference firmware", "index.html", null ],
+    [ "Unit-testing", "md_tests_README.html", null ],
+    [ "WiFi subsystem", "md_wifi-subsys_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Fields", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -39,7 +51,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dir_6c8313236d9db5b969ca7d150fe527de.html"
+"annotated.html",
+"group__wrover-app.html",
+"structat__request__t.html#a4515ec9f9852889561c6d320b07516a5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
