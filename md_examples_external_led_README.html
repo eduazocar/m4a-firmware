@@ -20,7 +20,7 @@
     <meta name="twitter:description"
         content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
     <!-- END twitter metadata -->
-    <title>Mesh4all: examples/esp32-wrover-app/udpf.h File Reference</title>
+    <title>Mesh4all: External led example</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
     <script type="text/javascript" src="jquery.js"></script>
@@ -85,7 +85,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('udpf_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_examples_external_led_README.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -103,48 +103,24 @@ $(document).ready(function(){initNavTree('udpf_8h.html',''); initResizable(); })
 </iframe>
 </div>
 
-<div class="header">
-  <div class="summary">
-<a href="#nested-classes">Data Structures</a>  </div>
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">udpf.h File Reference<div class="ingroups"><a class="el" href="group__examples.html">Mesh4all Examples</a> &raquo; <a class="el" href="group__wrover-app.html">M4a-wrover-app</a></div></div>  </div>
+<div class="title">External led example </div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Main firmware file.  
-<a href="#details">More...</a></p>
-
-<p><a href="udpf_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structudpf__payload.html">udpf_payload</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">udp transmitted data  <a href="structudpf__payload.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade251db86aba3ace7dae3f7fc39c63b0"><td class="memItemLeft" align="right" valign="top"><a id="ade251db86aba3ace7dae3f7fc39c63b0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="udpf_8h.html#ade251db86aba3ace7dae3f7fc39c63b0">udp_server</a> (int argc, <a class="el" href="structudpf__payload.html">udpf_payload</a> *argv)</td></tr>
-<tr class="memdesc:ade251db86aba3ace7dae3f7fc39c63b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">start udp server under a thread <br /></td></tr>
-<tr class="separator:ade251db86aba3ace7dae3f7fc39c63b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1516055126f26528fe1b9dd43d146fa5"><td class="memItemLeft" align="right" valign="top"><a id="a1516055126f26528fe1b9dd43d146fa5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="udpf_8h.html#a1516055126f26528fe1b9dd43d146fa5">udp_send</a> (int argc, char **argv)</td></tr>
-<tr class="memdesc:a1516055126f26528fe1b9dd43d146fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">udp send data using a string inserted in the shell <br /></td></tr>
-<tr class="separator:a1516055126f26528fe1b9dd43d146fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Main firmware file. </p>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2021 Mesh for all </dd></dl>
-<dl class="section author"><dt>Author</dt><dd>luisan00 <a href="#" onclick="location.href='mai'+'lto:'+'lui'+'sa'+'n00'+'@h'+'otm'+'ai'+'l.c'+'om'; return false;">luisa<span style="display: none;">.nosp@m.</span>n00@<span style="display: none;">.nosp@m.</span>hotma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
-
-<p class="definition">Definition in file <a class="el" href="udpf_8h_source.html">udpf.h</a>.</p>
+<div class="textblock"><p>this is a simple test where i turn on and turn off an external led in esp32 for this example i used esp32-wrover-kit</p>
+<h2><a class="anchor" id="autotoc_md33"></a>
+How to test it</h2>
+<p>first you must be defined the pins you need in this example i used the gpio 23 </p>
 </div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath">
   <!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="dir_b96c6ae8c9bac357a582a394aeebbd6f.html">esp32-wrover-app</a></li><li class="navelem"><a class="el" href="udpf_8h.html">udpf.h</a></li>
-    <li class="footer">Generated on Wed Apr 13 2022 13:58:12 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
+    <li class="footer">Generated on Tue Apr 19 2022 15:23:22 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
           src="doxygen.png" width="104" height="auto" alt="doxygen" /></a> 1.8.17 </li>
   </ul>
 </div>

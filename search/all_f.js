@@ -1,11 +1,11 @@
 var searchData=
 [
   ['reference_20firmware_178',['Reference firmware',['../group__m4a-firmware.html',1,'']]],
-  ['readme_179',['README',['../group__slipdev.html',1,'']]],
-  ['readme_180',['README',['../group__ds18b20.html',1,'']]],
-  ['readme_181',['README',['../group__external-led.html',1,'']]],
-  ['readme_182',['README',['../group__moisture__sensor.html',1,'']]],
-  ['readme_183',['README',['../group__tmp__uart.html',1,'']]],
+  ['readme_179',['README',['../md_examples_ds18b20_README.html',1,'']]],
+  ['readme_180',['README',['../md_examples_moisture_sensor_hw390_README.html',1,'']]],
+  ['readme_181',['README',['../md_examples_slipdev_README.html',1,'']]],
+  ['readme_182',['README',['../group__tmp__uart.html',1,'']]],
+  ['radio_2eh_183',['radio.h',['../radio_8h.html',1,'']]],
   ['random_5fbuff_184',['random_buff',['../unionrandom__buff.html',1,'']]],
   ['read_5for_5fwrite_185',['read_or_write',['../structat__request__t.html#a4515ec9f9852889561c6d320b07516a5',1,'at_request_t']]],
   ['received_5fsensor_5fdata_186',['received_sensor_data',['../subsys__uart_8h.html#a317af498a62e61accf7454ebd2c2afd9',1,'subsys_uart.h']]],
