@@ -13,3 +13,7 @@ endif
 ifeq (,$(filter border_router,$(USEMODULE)))
     USEMODULE +=  border_router
 endif
+
+ifneq(,$(filter border_router_client,$(USEMODULE)))
+    USEMODULE +=  udp_client
+endif

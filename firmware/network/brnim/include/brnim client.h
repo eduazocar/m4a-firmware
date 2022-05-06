@@ -20,18 +20,51 @@
  */
 
 /**
- * @ingroup     brnim
+ * @defgroup    brnim
+ * @ingroup     network
+ * @brief       System manager to get information of the all neighbors connected to border router
+ *
  * @{
  *
  * @file
- * @brief       Border Router Neighborh Information Manager implementation
  *
  * @author      eduazocar <eduardoazocar7@gmail.com>
  * @author      RocioRojas <rociorojas391@gmail.com>
- *
- * @}
  */
 
-#include "brnim.h"
+#ifndef BRNIM_H
+#define BRNIM_H
 
-/* Implementation of the module */
+#include "net/sock/udp.h"
+#include "net/gnrc/ipv6/nib/ft.h"
+
+typedef struct {
+    uint8_t seqno;
+    uint8_t* pending_acks;
+    ipv6_addr_t addr;
+    sock_udp_t socket;
+} brnim_client_t;
+
+
+/+
+pub struct VainaClient {
+    seqno: u8,
+    pending_acks: Vec<u8>,
+    sock: UdpSocket,
+    group: SocketAddr,
+} 
+
+*/
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Declare the API of the module */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* BRNIM_H */
+/** @} */

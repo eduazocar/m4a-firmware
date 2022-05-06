@@ -20,7 +20,7 @@
  */
 
 /**
- * @defgroup    brnim Border Router Neighborh Information Manager
+ * @defgroup    brnim
  * @ingroup     network
  * @brief       System manager to get information of the all neighbors connected to border router
  *
@@ -35,8 +35,11 @@
 #ifndef BRNIM_H
 #define BRNIM_H
 
-
+#include "net/sock/udp.h"
+#include "net/gnrc/ipv6/nib/ft.h"
 #define MULTICAST_ROOT_NODE_IPV6_ADDRESS "ff02::1"
+#define BRNIM_CLIENT_PORT 4999
+#define BRNIM_SERVER_PORT 5000
 
 enum {
     MSG_ACK = 0,  /**< Message acknowledged */
@@ -51,7 +54,7 @@ typedef struct {
     uint8_t seqno; /**< Sequence number */
     ipv6_addr_t address;
     uint8_t prefix-len;
-} brnim_adv;
+} brnim_msg;
 
 #ifdef __cplusplus
 extern "C" {

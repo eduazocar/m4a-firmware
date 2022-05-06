@@ -20,7 +20,7 @@
  */
 
 /**
- * @ingroup     module_brnim
+ * @ingroup     brnim
  * @{
  *
  * @file
