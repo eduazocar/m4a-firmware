@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['msg_5fnib_5fadd_5ft_328',['msg_nib_add_t',['../structmsg__nib__add__t.html',1,'']]],
-  ['msg_5fnib_5fdel_5ft_329',['msg_nib_del_t',['../structmsg__nib__del__t.html',1,'']]]
+  ['sensor_5fdata_313',['sensor_data',['../structsensor__data.html',1,'']]],
+  ['some_5fstruct_5fvar_314',['some_struct_var',['../structsome__struct__var.html',1,'']]]
 ];
