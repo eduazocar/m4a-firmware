@@ -20,7 +20,7 @@
     <meta name="twitter:description"
         content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
     <!-- END twitter metadata -->
-    <title>Mesh4all: wifi-subsys/components/uart/test Directory Reference</title>
+    <title>Mesh4all: dist/tools/chamoc/include/nib.h File Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
     <script type="text/javascript" src="jquery.js"></script>
@@ -85,7 +85,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('dir_8d065f4931d8980db40b74102b8f69e3.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('nib_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,9 +105,87 @@ $(document).ready(function(){initNavTree('dir_8d065f4931d8980db40b74102b8f69e3.h
 
 <div class="header">
   <div class="headertitle">
-<div class="title">test Directory Reference</div>  </div>
+<div class="title">nib.h File Reference<div class="ingroups"><a class="el" href="group__dist-tools.html">Distribution Tools</a> &raquo; <a class="el" href="group__chamoc.html">Chamoc - Client tool</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Provide modes to generate an nib_add or nib_del request and send it to the server.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;sys/socket.h&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for nib.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="nib_8h__incl.svg" width="335" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div>
+<p><a href="nib_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="memitem:a598c582b791e0b434234167837d64e50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nib_8h.html#a598c582b791e0b434234167837d64e50">nib_req</a> (char *iface, char *ip, uint8_t prefix, uint8_t msg_type)</td></tr>
+<tr class="memdesc:a598c582b791e0b434234167837d64e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function gives the necessary settings to provide an socket a nib add or nib_del address request.  <a href="nib_8h.html#a598c582b791e0b434234167837d64e50">More...</a><br /></td></tr>
+<tr class="separator:a598c582b791e0b434234167837d64e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Provide modes to generate an nib_add or nib_del request and send it to the server. </p>
+<dl class="section author"><dt>Author</dt><dd>eduazocar <a href="#" onclick="location.href='mai'+'lto:'+'edu'+'ar'+'doa'+'zo'+'car'+'7@'+'gma'+'il'+'.co'+'m'; return false;">eduar<span style="display: none;">.nosp@m.</span>doaz<span style="display: none;">.nosp@m.</span>ocar7<span style="display: none;">.nosp@m.</span>@gma<span style="display: none;">.nosp@m.</span>il.co<span style="display: none;">.nosp@m.</span>m</a> </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="nib_8h_source.html">nib.h</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a598c582b791e0b434234167837d64e50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a598c582b791e0b434234167837d64e50">&#9670;&nbsp;</a></span>nib_req()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nib_req </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>iface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>msg_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function gives the necessary settings to provide an socket a nib add or nib_del address request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iface</td><td>refers to the name of an interface in the system. example enp2s0 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prefix</td><td>the prefix of the Ipv6 address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ip</td><td>ipv6 address represented by a string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">msg_type</td><td>Represent the message type (NIB_ADD or NIB_DEL) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -115,8 +193,8 @@ $(document).ready(function(){initNavTree('dir_8d065f4931d8980db40b74102b8f69e3.h
 <div id="nav-path" class="navpath">
   <!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a514cfc3cbd1658d2b92cdf61218a183.html">wifi-subsys</a></li><li class="navelem"><a class="el" href="dir_9a60aabc363d2ca5a31892dabdbdbdc3.html">components</a></li><li class="navelem"><a class="el" href="dir_13fe6cbf094a1946279e10e71677420d.html">uart</a></li><li class="navelem"><a class="el" href="dir_8d065f4931d8980db40b74102b8f69e3.html">test</a></li>
-    <li class="footer">Generated on Mon May 16 2022 20:33:45 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
+    <li class="navelem"><a class="el" href="dir_b94f9f0c034b39d5d6d39e3a6fbfd3e1.html">dist</a></li><li class="navelem"><a class="el" href="dir_872ba4f722c4cb150eae0ebf7c037c41.html">tools</a></li><li class="navelem"><a class="el" href="dir_2c91567d03d9048aad80963207c747ea.html">chamoc</a></li><li class="navelem"><a class="el" href="dir_86863ec08466bc0a0ba04edd8a7bd18c.html">include</a></li><li class="navelem"><a class="el" href="nib_8h.html">nib.h</a></li>
+    <li class="footer">Generated on Thu May 19 2022 13:26:37 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
           src="doxygen.png" width="104" height="auto" alt="doxygen" /></a> 1.8.17 </li>
   </ul>
 </div>
