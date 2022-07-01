@@ -108,10 +108,16 @@ $(document).ready(function(){initNavTree('group__storage__module.html',''); init
 <div class="title">Storage<div class="ingroups"><a class="el" href="group__m4a-firmware.html">Reference firmware</a> &raquo; <a class="el" href="group__sys.html">Sys</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<h1><a class="anchor" id="autotoc_md73"></a>
-What goes here?</h1>
-<p>This module saves data in the flash memory.</p>
-<p>Note: the data could not be greater than 64 bytes. Data formats allowed are string and uint8. </p>
+<h1><a class="anchor" id="autotoc_md77"></a>
+Storage</h1>
+<p>This module saves data in the flash memory in pages that we can write and read.</p>
+<p>Notes:</p>
+<ul>
+<li>The max size to save in the page is 16</li>
+<li>The data could not be greater than 64 bytes</li>
+<li>Data formats allowed are string and uint8</li>
+<li>the functions mtd_write_string and mtd_write_uint8 is not recommended to use it directly, use the functions in library </li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -119,7 +125,7 @@ What goes here?</h1>
 <div id="nav-path" class="navpath">
   <!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jun 18 2022 16:33:19 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
+    <li class="footer">Generated on Fri Jul 1 2022 21:22:39 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
           src="doxygen.png" width="104" height="auto" alt="doxygen" /></a> 1.8.17 </li>
   </ul>
 </div>
