@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unit_2dtesting_806',['Unit-testing',['../md_tests_README.html',1,'']]]
+  ['riot_20bootloader_20test_809',['RIOT bootloader test',['../md_tests_riotboot_README.html',1,'']]]
 ];
