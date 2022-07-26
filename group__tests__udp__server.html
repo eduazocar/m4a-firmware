@@ -20,7 +20,7 @@
     <meta name="twitter:description"
         content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
     <!-- END twitter metadata -->
-    <title>Mesh4all: External-led blink</title>
+    <title>Mesh4all: Wait and listen to UDP message</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
     <script type="text/javascript" src="jquery.js"></script>
@@ -85,7 +85,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group__external-led.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('group__tests__udp__server.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,58 +105,24 @@ $(document).ready(function(){initNavTree('group__external-led.html',''); initRes
 
 <div class="header">
   <div class="headertitle">
-<div class="title">External-led blink<div class="ingroups"><a class="el" href="group__examples.html">Mesh4all Examples</a></div></div>  </div>
+<div class="title">Wait and listen to UDP message<div class="ingroups"><a class="el" href="group__tests.html">Application tests to each Module and driver</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is a external led blink example to known about gpio/periph.h.  
-<a href="#details">More...</a></p>
-<p>This is a external led blink example to known about gpio/periph.h. </p>
-<dl class="section author"><dt>Author</dt><dd>xkevin190 <a href="#" onclick="location.href='mai'+'lto:'+'kev'+'in'+'vel'+'as'+'co1'+'90'+'@gm'+'ai'+'l.c'+'om'; return false;">kevin<span style="display: none;">.nosp@m.</span>vela<span style="display: none;">.nosp@m.</span>sco19<span style="display: none;">.nosp@m.</span>0@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
-<h1><a class="anchor" id="led"></a>
-External Led Blink</h1>
-<h2><a class="anchor" id="external_led_blink_toc"></a>
-Table of Contents</h2>
-<ol type="1">
-<li><a href="#external_led_blink_hardware">Hardware</a></li>
-<li><a href="#external_led_blink_basic">Getting Started</a></li>
-<li><a href="#external_led_blink_flashing">Flashing the Device</a></li>
-</ol>
-<h2><a class="anchor" id="external_led_blink_hardware"></a>
-Hardware</h2>
-<p>This section shows, which pin is used in this example.</p>
-<center> <table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadLeft">Function </th><th class="markdownTableHeadLeft">GPIOs </th><th class="markdownTableHeadLeft">Remarks  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyLeft">LED_PIN </td><td class="markdownTableBodyLeft">GPIO(PA , 19) </td><td class="markdownTableBodyLeft">Pin to blink control of led  </td></tr>
-</table>
-</center><center></center> <h2><a class="anchor" id="external_led_blink_basic"></a>
-Getting Started</h2>
-<p>To understand how to make a gpio_pin use digital Output. Import the periph/gpio.h library. You could use two functions to set digital output 1 or 0. </p><div class="fragment"><div class="line">gpio_write(gpio, digital_state);</div>
-<div class="line"><span class="comment">/*</span></div>
-<div class="line"><span class="comment">   gpio : refers to a digital pin that could be act with two states HIGH and LOW</span></div>
-<div class="line"><span class="comment">   digital_state: this could be 1 (HIGH) or 0 (LOW).</span></div>
-<div class="line"><span class="comment"> */</span></div>
-<div class="line">gpio_toggle(gpio);</div>
-<div class="line"><span class="comment">/*</span></div>
-<div class="line"><span class="comment">   gpio: refers to digital pin</span></div>
-<div class="line"><span class="comment">  </span></div>
-<div class="line"><span class="comment"> */</span></div>
-</div><!-- fragment --><p>The difference between both functions it's that gpio_write does the change manually, instead gpio_toggle() changes the value of current state. (means if is HIGH, when applied this function will be set to LOW).</p>
-<p>another aspect to be take into account is add the xtimer and ztimer headers files, to use temporizers in our code.</p>
-<h2><a class="anchor" id="external_led_blink_flashing"></a>
-Flashing</h2>
-<p>If you want to upload the example to your board, needs to compile first, additional to this you could initialize the terminal and watch the results </p><div class="fragment"><div class="line">make -C examples/esp32-wroom-32/external_led flash term</div>
-</div><!-- fragment --><p><a href="#external_led_blink_toc">Back to table of contents</a> </p>
-</div><!-- contents -->
+<h2><a class="anchor" id="autotoc_md107"></a>
+Test documentation</h2>
+<p>Here are the unit tests for the UDP server module, in which a udp server is started and through a client messages are sent every 2 seconds, when the messages are received on the server it is verified if the correct message arrived</p>
+<p>To test the code in automatic mode:</p>
+<div class="fragment"><div class="line">make flash test</div>
+</div><!-- fragment --><p>To test the code in interactive mode:"</p>
+<div class="fragment"><div class="line">make flash term</div>
+</div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath">
   <!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 22 2022 12:42:27 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
+    <li class="footer">Generated on Tue Jul 26 2022 15:41:44 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
           src="doxygen.png" width="104" height="auto" alt="doxygen" /></a> 1.8.17 </li>
   </ul>
 </div>

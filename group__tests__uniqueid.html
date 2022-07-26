@@ -20,7 +20,7 @@
     <meta name="twitter:description"
         content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
     <!-- END twitter metadata -->
-    <title>Mesh4all: Read values using ADC peripheral</title>
+    <title>Mesh4all: Generate an ipv6 address statically, randomly or manually</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
     <script type="text/javascript" src="jquery.js"></script>
@@ -85,7 +85,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group__periph__adc.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('group__tests__uniqueid.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,31 +104,37 @@ $(document).ready(function(){initNavTree('group__periph__adc.html',''); initResi
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#files">Files</a>  </div>
   <div class="headertitle">
-<div class="title">Read values using ADC peripheral</div>  </div>
+<div class="title">Generate an ipv6 address statically, randomly or manually<div class="ingroups"><a class="el" href="group__tests.html">Application tests to each Module and driver</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<h2><a class="anchor" id="autotoc_md92"></a>
-Test the [A]nalog to [D]igital [C]onverter peripheral</h2>
-<p>This test gets the list of ADC pins available and read their values.</p>
-<h3><a class="anchor" id="autotoc_md93"></a>
-Compile, flash and test</h3>
-<p>You can compile and flash by executing:</p>
-<div class="fragment"><div class="line">make BOARD=&lt;your_board&gt; flash</div>
-</div><!-- fragment --><p>Then open a terminal with:</p>
-<div class="fragment"><div class="line">make BOARD=&lt;your_board&gt; term</div>
-</div><!-- fragment --><p>And start the tests by typing [S]</p>
-<p><b>Also</b> you can run the test in <b>auto mode</b> with:</p>
-<div class="fragment"><div class="line">make &lt;your_board&gt; flash test</div>
-</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>&lt;your_board&gt; must be changed by one of <a class="el" href="group__boards.html">Supported Boards</a> </dd></dl>
-</div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:unique__random_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unique__random_8h.html">unique_random.h</a></td></tr>
+<tr class="memdesc:unique__random_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomizer to obtain values hex in binary. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2><a class="anchor" id="autotoc_md108"></a>
+Test Unique id</h2>
+<p>Here the unit tests are carried out on the Uniqueid module.</p>
+<p>Before to flash and start you need to set the uniqueid parameters, these define is the uniqueid runs in <code>static</code>, <code>random</code> or <code>manual</code> mode.</p>
+<p>Main Setup </p><div class="fragment"><div class="line">make menuconfig all</div>
+</div><!-- fragment --><p>To test the code in automatic mode:</p>
+<div class="fragment"><div class="line">make flash test</div>
+</div><!-- fragment --><p>To test the code in interactive mode:</p>
+<div class="fragment"><div class="line">make flash term</div>
+</div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath">
   <!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 22 2022 12:42:27 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
+    <li class="footer">Generated on Tue Jul 26 2022 15:41:44 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
           src="doxygen.png" width="104" height="auto" alt="doxygen" /></a> 1.8.17 </li>
   </ul>
 </div>
