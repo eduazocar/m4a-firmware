@@ -33,7 +33,7 @@ TERMFLAGS ?= $(HOST_IPV6) $(PORT) ${RIOTTOOLS} ${USB_IPV6}
 BORDER_ROUTER_USBTOOL ?= $(RIOTBASE)/../dist/tools/usb-cdc-ecm
 CHAMOC_DIR ?= ../../dist/tools/chamoc
 
-install: 
+install:
 	./${CHAMOC_DIR}/install.sh ${HOST_IPV6} ${USB_IPV6}
 uninstall:
 	./${CHAMOC_DIR}/uninstall.sh ${HOST_IPV6} ${USB_IPV6}

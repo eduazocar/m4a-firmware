@@ -11,17 +11,6 @@ unsupported_platform() {
     echo "(currently supported \`uname -s\` 'Darwin' and 'Linux')" >&2
 }
 
-case "$(uname -s)" in
-    Darwin)
-        PLATFORM="OSX";;
-    Linux)
-        PLATFORM="Linux";;
-    *)
-        unsupported_platform
-        exit 1
-        ;;
-esac
-
 INTERFACE_CHECK_COUNTER=5  # 5 attempts to find usb interface
 
 find_interface() {
@@ -74,5 +63,3 @@ else
 fi
 close_connection
 echo "Removed Connection"
-
-

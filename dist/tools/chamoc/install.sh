@@ -2,25 +2,13 @@
 CHAMOC_DIR="$(dirname "$(readlink -f "$0")")"
 
 SUDO=${SUDO:-sudo}
-PREFIX=64
-NPREFIX=::
+PREFIX=128
 CHAMOC_APP=${CHAMOC_DIR}/chamoc_test_client
 
 unsupported_platform() {
     echo "unsupported platform" >&2
     echo "(currently supported \`uname -s\` 'Darwin' and 'Linux')" >&2
 }
-
-case "$(uname -s)" in
-    Darwin)
-        PLATFORM="OSX";;
-    Linux)
-        PLATFORM="Linux";;
-    *)
-        unsupported_platform
-        exit 1
-        ;;
-esac
 
 INTERFACE_CHECK_COUNTER=5  # 5 attempts to find usb interface
 
@@ -46,7 +34,6 @@ add_addresses(){
             ${SUDO} sysctl -w net.ipv6.conf."${INTERFACE}".accept_ra=0
             ${SUDO} ip link set "${INTERFACE}" up
             ${SUDO} ip a a "${HOST_IPV6}"/"${PREFIX}" dev "${INTERFACE}"
-            ${SUDO} ip route add "${NPREFIX}"/0 via "${USB_IPV6}"
             echo "Start sending a nib add request"
             ${SUDO} "${CHAMOC_DIR}"/chamoc_test_client nib add "${INTERFACE}" "${HOST_IPV6}" "${PREFIX}"
 }
@@ -77,4 +64,3 @@ fi
 
 add_addresses
 echo "Connection started"
-

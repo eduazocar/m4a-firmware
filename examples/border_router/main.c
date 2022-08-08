@@ -47,13 +47,14 @@ msg_t _main_msg_queue[MAIN_QUEUE_SIZE];
 shell_command_t shell_extended_commands[] = {{NULL, NULL, NULL}};
 
 int setup(void) {
-    ipv6_addr_t addr;
+    ipv6_addr_t addr  = {.u8 ={0}};
 #if (CONFIG_IS_DODAG)
     ipv6_addr_from_str(&addr, CONFIG_ADDRESS_IPV6_WIRELESS);
     border_router_setup(addr, 64, CONFIG_WIRELESS_INTERFACE);
 #endif
-    ipv6_addr_from_str(&addr, CONFIG_ADDRESS_IPV6_WIRED);
-    border_router_setup(addr, 64, CONFIG_WIRED_INTERFACE);
+    (void) addr;
+//     ipv6_addr_from_str(&addr, CONFIG_ADDRESS_IPV6_WIRED);
+//     border_router_setup(addr, 64, CONFIG_WIRED_INTERFACE);
     rpl_setup(CONFIG_IS_DODAG);
     return 0;
 }
