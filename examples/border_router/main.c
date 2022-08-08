@@ -39,6 +39,8 @@
 #include "shell.h"
 #include "border_router.h"
 #include "rpl_protocol.h"
+#include "chamos.h"
+
 #define MAIN_QUEUE_SIZE (8)
 
 msg_t _main_msg_queue[MAIN_QUEUE_SIZE];
@@ -59,9 +61,14 @@ int setup(void) {
 int main(void) {
     /* Start shell */
     char line_buf[SHELL_DEFAULT_BUFSIZE];
+        puts("Generated Mesh4all application: 'border_router'");
+#ifdef ISP
+    printf("expect to connect with a provider\n");
+#endif
+    gnrc_netif_t *iface = gnrc_netif_get_by_type(NETDEV_ANY, NETDEV_INDEX_ANY);
+    chamos_init(6977, iface);
     setup();
     msg_init_queue(_main_msg_queue, MAIN_QUEUE_SIZE);
     shell_run(shell_extended_commands, line_buf, SHELL_DEFAULT_BUFSIZE);
-    puts("Generated Mesh4all application: 'border_router'");
     return 0;
 }
