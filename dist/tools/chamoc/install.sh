@@ -27,24 +27,33 @@ find_interface() {
     echo "${INTERFACE}"
 }
 
-echo "Waiting for network interface."
-
 add_addresses(){
             ${SUDO} sysctl -w net.ipv6.conf."${INTERFACE}".forwarding=1
             ${SUDO} sysctl -w net.ipv6.conf."${INTERFACE}".accept_ra=0
-            ${SUDO} ip a a "${HOST_IPV6}"/"${PREFIX}" dev "${INTERFACE}"
             echo "Start sending a nib add request"
-            ${SUDO} "${CHAMOC_DIR}"/chamoc_test_client nib add "${INTERFACE}" "${HOST_IPV6}" "${PREFIX}"
+            ${SUDO} "${CHAMOC_DIR}"/chamoc_test_client nib add "${INTERFACE}" "${NETWORK}" "${PREFIX}"
             ${SUDO} ip link set "${INTERFACE}" up
 }
 
-HOST_IPV6=$1
-if [ -z "${HOST_IPV6}" ]; then
-    HOST_IPV6="2001:db8:1::1"
-fi
+start_dhcpd() {
+    DHCPD_PIDFILE=$(mktemp)
+    ${DHCPD} -d -p "${DHCPD_PIDFILE}" "${INTERFACE}" "${NETWORK}" 2> /dev/null
+}
+
+cleanup() {
+    echo "Cleaning up..."
+    if [ -n "${DHCPD_PIDFILE}" ]; then
+        kill "$(cat "${DHCPD_PIDFILE}")"
+        rm "${DHCPD_PIDFILE}"
+    fi
+    trap "" INT QUIT TERM EXIT
+}
+echo "Waiting for network interface."
+
+NETWORK=$2
 
 find_interface
-# trap "close_connection" INT QUIT TERM EXIT
+trap "cleanup" INT QUIT TERM EXIT
 
 if [ -z "${INTERFACE}" ]; then
    echo "USB network interface not found"
@@ -56,5 +65,17 @@ if [ ! -f "${CHAMOC_APP}" ]; then
 fi
 
 add_addresses
+if [ "$1" = "-d" ] || [ "$1" = "--use-dhcpv6" ]; then
+    USE_DHCPV6=1
+    shift 1
+fi
+
+
+if [ ${USE_DHCPV6} -eq 1 ]; then
+    DHCPD="$(readlink -f "${RIOTTOOLS}/dhcpv6-pd_ia/")/dhcpv6-pd_ia.py"
+    start_dhcpd
+fi
+
+
 rm "${CHAMOC_APP}"
 echo "Connection started"
