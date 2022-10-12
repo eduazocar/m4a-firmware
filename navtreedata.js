@@ -58,9 +58,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group__examples__shell__extended.html",
-"md_tests_riotboot_dfu_README.html",
-"vs203_2include_2gpio__params_8h.html#a5442106fb6a31a0cc477a93d79701765"
+"group__net__tools.html",
+"meshme_2include_2board_8h.html#a055a3d5116a20cddab071676f7fdb2fb",
+"vs203_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

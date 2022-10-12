@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"vs203_2include_2gpio__params_8h.html#a5442106fb6a31a0cc477a93d79701765":[7,0,0,3,0,1,0],
-"vs203_2include_2gpio__params_8h_source.html":[7,0,0,3,0,1],
-"vs203_2include_2periph__conf_8h.html":[7,0,0,3,0,2],
-"vs203_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5":[7,0,0,3,0,2,2],
 "vs203_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb":[7,0,0,3,0,2,0],
 "vs203_2include_2periph__conf_8h.html#a850405f2aaa352ad264346531f0e6230":[7,0,0,3,0,2,1],
 "vs203_2include_2periph__conf_8h_source.html":[7,0,0,3,0,2],

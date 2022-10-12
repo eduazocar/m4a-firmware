@@ -1,9 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group__examples__shell__extended.html":[5,3,0],
-"group__examples__slipdev.html":[5,3,3],
-"group__m4a-firmware.html":[5,2],
-"group__moisture__sensor.html":[5,2,1,1],
 "group__net__tools.html":[5,2,0,2,0],
 "group__net__tools.html#ga13a40ea6a36e5a331c54cd72513328e8":[5,2,0,2,0,1],
 "group__net__tools.html#ga13a40ea6a36e5a331c54cd72513328e8":[7,0,3,0,2,0,0,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX1 =
 "map_8h_source.html":[7,0,4,2,0],
 "md_tests_README.html":[1],
 "md_tests_riotboot_README.html":[2],
-"md_tests_riotboot_README.html#autotoc_md104":[2,0]
+"md_tests_riotboot_README.html#autotoc_md104":[2,0],
+"md_tests_riotboot_dfu_README.html":[3],
+"md_tests_riotboot_dfu_README.html#autotoc_md105":[3,0],
+"md_wifi-subsys_README.html":[4],
+"meshme_2include_2board_8h.html":[7,0,0,2,0,0]
 };

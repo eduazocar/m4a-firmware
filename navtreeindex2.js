@@ -1,9 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"md_tests_riotboot_dfu_README.html":[3],
-"md_tests_riotboot_dfu_README.html#autotoc_md105":[3,0],
-"md_wifi-subsys_README.html":[4],
-"meshme_2include_2board_8h.html":[7,0,0,2,0,0],
 "meshme_2include_2board_8h.html#a055a3d5116a20cddab071676f7fdb2fb":[7,0,0,2,0,0,12],
 "meshme_2include_2board_8h.html#a0702de219624c9cb1bdb4ea9b25ee62d":[7,0,0,2,0,0,29],
 "meshme_2include_2board_8h.html#a0a18a6978d9c62c42afc3917d2f258b8":[7,0,0,2,0,0,26],
@@ -249,5 +245,9 @@ var NAVTREEINDEX2 =
 "vs203_2include_2board_8h.html#af6f84078113b55354d20585131b386f7":[7,0,0,3,0,0,22],
 "vs203_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc":[7,0,0,3,0,0,31],
 "vs203_2include_2board_8h_source.html":[7,0,0,3,0,0],
-"vs203_2include_2gpio__params_8h.html":[7,0,0,3,0,1]
+"vs203_2include_2gpio__params_8h.html":[7,0,0,3,0,1],
+"vs203_2include_2gpio__params_8h.html#a5442106fb6a31a0cc477a93d79701765":[7,0,0,3,0,1,0],
+"vs203_2include_2gpio__params_8h_source.html":[7,0,0,3,0,1],
+"vs203_2include_2periph__conf_8h.html":[7,0,0,3,0,2],
+"vs203_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5":[7,0,0,3,0,2,2]
 };
