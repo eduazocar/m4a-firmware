@@ -1,5 +1,17 @@
 var firmware_2sys_2storage_2include_2storage_8h =
 [
+    [ "mtd_register_t", "structmtd__register__t.html", "structmtd__register__t" ],
+    [ "LAST_AVAILABLE_PAGE", "firmware_2sys_2storage_2include_2storage_8h.html#a1f6aa012a967f33fb5ec3cdeae1c6e22", null ],
+    [ "MAX_NUMOF_FLASHPAGES", "firmware_2sys_2storage_2include_2storage_8h.html#a401d65355970abcbfcd4b7b05d96a3ef", null ],
+    [ "MAX_SIZE_STORAGE", "firmware_2sys_2storage_2include_2storage_8h.html#af6ba1f9f4063e60617dab3349aaba7c9", null ],
+    [ "MTD_LAST_ADDR", "firmware_2sys_2storage_2include_2storage_8h.html#a3ca5cd2fbe98a992768cb95e12751ea2", null ],
+    [ "MTD_REG_IDX_NUMOF", "firmware_2sys_2storage_2include_2storage_8h.html#a6b38f11f6304ccf48028426408b34361", null ],
+    [ "MTD_REGISTER_INDEX_LIMIT", "firmware_2sys_2storage_2include_2storage_8h.html#a3af661bd788e62ad96860f3094b38114", null ],
+    [ "MTD_START_ADDR", "firmware_2sys_2storage_2include_2storage_8h.html#a778637ff7b034e27b6b35a2f0d785606", null ],
+    [ "RWP_READ_BITMASK", "firmware_2sys_2storage_2include_2storage_8h.html#a7510a93bc6e2de47c1af3b9ef985e318", null ],
+    [ "RWP_WRITE_BITMASK", "firmware_2sys_2storage_2include_2storage_8h.html#ae8335f99f857b142da110b871034e533", null ],
+    [ "mtd_available_idx", "firmware_2sys_2storage_2include_2storage_8h.html#a661e228d0e40d5ed1f532463523f0d5f", null ],
+    [ "mtd_clear_all_regs", "firmware_2sys_2storage_2include_2storage_8h.html#a487081ef9076c21f3def39e3928ba077", null ],
     [ "mtd_dump", "firmware_2sys_2storage_2include_2storage_8h.html#ac9ca55f7466e0dce5943f3e1e2bf65de", null ],
     [ "mtd_dump_flashpage", "firmware_2sys_2storage_2include_2storage_8h.html#afa2f89ea6c134e9dce2d9436c5f7b062", null ],
     [ "mtd_erase_all", "firmware_2sys_2storage_2include_2storage_8h.html#acc9b247d11cfcde9f583e4b254a012be", null ],
@@ -11,6 +23,7 @@ var firmware_2sys_2storage_2include_2storage_8h =
     [ "mtd_get_u32", "firmware_2sys_2storage_2include_2storage_8h.html#a987681426b5128ee90e600e1abdef210", null ],
     [ "mtd_get_u8", "firmware_2sys_2storage_2include_2storage_8h.html#ada7de224cd6a404671416fee66874146", null ],
     [ "mtd_load", "firmware_2sys_2storage_2include_2storage_8h.html#a8a0541ed59748c5fb985a6967126975a", null ],
+    [ "mtd_load_reg", "firmware_2sys_2storage_2include_2storage_8h.html#a0594d1f6041745df5000c4fb2f7fadd0", null ],
     [ "mtd_put_i16", "firmware_2sys_2storage_2include_2storage_8h.html#a0e992c1e1f5cb35127f5a278cb8436d4", null ],
     [ "mtd_put_i32", "firmware_2sys_2storage_2include_2storage_8h.html#a6534f0b1309de8528bc3b0b6f6f4f631", null ],
     [ "mtd_put_i8", "firmware_2sys_2storage_2include_2storage_8h.html#a9df20ee4878eef0a275c79e359657ad9", null ],
@@ -18,6 +31,8 @@ var firmware_2sys_2storage_2include_2storage_8h =
     [ "mtd_put_u16", "firmware_2sys_2storage_2include_2storage_8h.html#a16fd59627fc8c6552fd5587809e453a2", null ],
     [ "mtd_put_u32", "firmware_2sys_2storage_2include_2storage_8h.html#a324d785767fa7712a794ab9f7a01dbef", null ],
     [ "mtd_put_u8", "firmware_2sys_2storage_2include_2storage_8h.html#a3d82fb477ca53dd2c858a77cb287b4ab", null ],
+    [ "mtd_reg_del", "firmware_2sys_2storage_2include_2storage_8h.html#a4220655edd4d34efdf8213f7158c9905", null ],
     [ "mtd_save", "firmware_2sys_2storage_2include_2storage_8h.html#ab41b6cd52f6ce1fd7a3b86e1638c8c4f", null ],
+    [ "mtd_save_reg", "firmware_2sys_2storage_2include_2storage_8h.html#af3adf13f2e821d72adf784bab36d2db2", null ],
     [ "mtd_start", "firmware_2sys_2storage_2include_2storage_8h.html#abe2b906494510ba1d711c732142e8c11", null ]
 ];
