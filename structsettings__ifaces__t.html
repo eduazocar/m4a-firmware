@@ -20,7 +20,7 @@
     <meta name="twitter:description"
         content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
     <!-- END twitter metadata -->
-    <title>Mesh4all: firmware/peripherals/moisture_sensor/include/moisture_sensor.h File Reference</title>
+    <title>Mesh4all: settings_ifaces_t Struct Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/svg+xml" href="logo.drawio.svg" />
     <script type="text/javascript" src="jquery.js"></script>
@@ -85,7 +85,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('moisture__sensor_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('structsettings__ifaces__t.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,77 +104,76 @@ $(document).ready(function(){initNavTree('moisture__sensor_8h.html',''); initRes
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">moisture_sensor.h File Reference<div class="ingroups"><a class="el" href="group__m4a-firmware.html">Reference firmware</a> &raquo; <a class="el" href="group__peripherals.html">Peripherals</a> &raquo; <a class="el" href="group__moisture__sensor.html">Moisture sensor</a></div></div>  </div>
+<div class="title">settings_ifaces_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is a module created for hw390 moisture sensor. This is an adc device, for the correct functioning of this module you have to use 3.3V and 10bits resolution.  
-<a href="#details">More...</a></p>
+<p>struct to save interface data settings.  
+ <a href="structsettings__ifaces__t.html#details">More...</a></p>
 
-<p><a href="moisture__sensor_8h_source.html">Go to the source code of this file.</a></p>
+<p><code>#include &lt;<a class="el" href="firmware_2default__params_8h_source.html">default_params.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="memitem:a5aecb8c061d0c67614d8a0805b627dca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="moisture__sensor_8h.html#a5aecb8c061d0c67614d8a0805b627dca">init_moisture</a> (void)</td></tr>
-<tr class="memdesc:a5aecb8c061d0c67614d8a0805b627dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the moisture sensor.  <a href="moisture__sensor_8h.html#a5aecb8c061d0c67614d8a0805b627dca">More...</a><br /></td></tr>
-<tr class="separator:a5aecb8c061d0c67614d8a0805b627dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3991965f75a3260bf8365f71d7a43ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="moisture__sensor_8h.html#ad3991965f75a3260bf8365f71d7a43ca">get_moisture_value</a> (int *output)</td></tr>
-<tr class="memdesc:ad3991965f75a3260bf8365f71d7a43ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to get the sensor data.  <a href="moisture__sensor_8h.html#ad3991965f75a3260bf8365f71d7a43ca">More...</a><br /></td></tr>
-<tr class="separator:ad3991965f75a3260bf8365f71d7a43ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:aa9afe18388308cbecf97d912693abb14"><td class="memItemLeft" align="right" valign="top"><a id="aa9afe18388308cbecf97d912693abb14"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>id</b></td></tr>
+<tr class="separator:aa9afe18388308cbecf97d912693abb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286ec929140da35f562cb36958e111db"><td class="memItemLeft" align="right" valign="top"><a id="a286ec929140da35f562cb36958e111db"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<tr class="separator:a286ec929140da35f562cb36958e111db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3a56d8e9e8eb6f2a2ccb4e0063be4b7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsettings__ifaces__t.html#af3a56d8e9e8eb6f2a2ccb4e0063be4b7">channel</a></td></tr>
+<tr class="separator:af3a56d8e9e8eb6f2a2ccb4e0063be4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29becda23b11854d1b0bcbd9cdb1d422"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsettings__ifaces__t.html#a29becda23b11854d1b0bcbd9cdb1d422">tx_power</a></td></tr>
+<tr class="separator:a29becda23b11854d1b0bcbd9cdb1d422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301ff5a467274863b2c80a38bf174acb"><td class="memItemLeft" align="right" valign="top"><a id="a301ff5a467274863b2c80a38bf174acb"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>freq</b></td></tr>
+<tr class="separator:a301ff5a467274863b2c80a38bf174acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is a module created for hw390 moisture sensor. This is an adc device, for the correct functioning of this module you have to use 3.3V and 10bits resolution. </p>
-<dl class="section author"><dt>Author</dt><dd>xkevin190 <a href="#" onclick="location.href='mai'+'lto:'+'kev'+'in'+'vel'+'as'+'co1'+'90'+'@gm'+'ai'+'l.c'+'om'; return false;">kevin<span style="display: none;">.nosp@m.</span>vela<span style="display: none;">.nosp@m.</span>sco19<span style="display: none;">.nosp@m.</span>0@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
+<div class="textblock"><p>struct to save interface data settings. </p>
 
-<p class="definition">Definition in file <a class="el" href="moisture__sensor_8h_source.html">moisture_sensor.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="ad3991965f75a3260bf8365f71d7a43ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3991965f75a3260bf8365f71d7a43ca">&#9670;&nbsp;</a></span>get_moisture_value()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int get_moisture_value </td>
-          <td>(</td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>output</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function to get the sensor data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>this variable will return the moisture value </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>0 satisfactory result -1 failed result </dd></dl>
-
-</div>
-</div>
-<a id="a5aecb8c061d0c67614d8a0805b627dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aecb8c061d0c67614d8a0805b627dca">&#9670;&nbsp;</a></span>init_moisture()</h2>
+<p class="definition">Definition at line <a class="el" href="firmware_2default__params_8h_source.html#l00058">58</a> of file <a class="el" href="firmware_2default__params_8h_source.html">default_params.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="af3a56d8e9e8eb6f2a2ccb4e0063be4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3a56d8e9e8eb6f2a2ccb4e0063be4b7">&#9670;&nbsp;</a></span>channel</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int init_moisture </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">uint16_t settings_ifaces_t::channel</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Channel of the radio </p>
 
-<p>This function initializes the moisture sensor. </p>
-<dl class="section return"><dt>Returns</dt><dd>0 satisfactory result -1 failed result </dd></dl>
+<p class="definition">Definition at line <a class="el" href="firmware_2default__params_8h_source.html#l00061">61</a> of file <a class="el" href="firmware_2default__params_8h_source.html">default_params.h</a>.</p>
 
 </div>
 </div>
+<a id="a29becda23b11854d1b0bcbd9cdb1d422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29becda23b11854d1b0bcbd9cdb1d422">&#9670;&nbsp;</a></span>tx_power</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t settings_ifaces_t::tx_power</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The transmit power from a radio interface </p>
+
+<p class="definition">Definition at line <a class="el" href="firmware_2default__params_8h_source.html#l00062">62</a> of file <a class="el" href="firmware_2default__params_8h_source.html">default_params.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>firmware/<a class="el" href="firmware_2default__params_8h_source.html">default_params.h</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -182,7 +181,7 @@ $(document).ready(function(){initNavTree('moisture__sensor_8h.html',''); initRes
 <div id="nav-path" class="navpath">
   <!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d9edf6c004b4a7ff14fe9ae7a92214ee.html">firmware</a></li><li class="navelem"><a class="el" href="dir_a5760dc3de68c9473fc8366796762e32.html">peripherals</a></li><li class="navelem"><a class="el" href="dir_d01016bb61a4f5980b4d33e6f34984fd.html">moisture_sensor</a></li><li class="navelem"><a class="el" href="dir_bd83e08e558c24023f0ac825556d8fac.html">include</a></li><li class="navelem"><a class="el" href="moisture__sensor_8h.html">moisture_sensor.h</a></li>
+    <li class="navelem"><a class="el" href="structsettings__ifaces__t.html">settings_ifaces_t</a></li>
     <li class="footer">Generated on Fri Oct 14 2022 15:46:22 for Mesh4all by <a href="https://www.doxygen.org/index.html"><img class="footer"
           src="doxygen.png" width="104" height="auto" alt="doxygen" /></a> 1.8.17 </li>
   </ul>
